@@ -25,7 +25,7 @@ SECRET_KEY = 'ju^_u6yz(h=e=@-z&j0b3%=+zx47_#j0wo0#nf*bxqz0uf#fpf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cryptic-hamlet-99197.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
