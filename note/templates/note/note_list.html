@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form id="create-note" method="POST" action="{% url 'api_note:create' %}">{% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="POST">
+    </form>
+
+    <div id="notes-container" url="{% url 'api_note:list' %}"></div>
+{% endblock %}
