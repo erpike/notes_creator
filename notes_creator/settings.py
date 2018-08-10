@@ -123,4 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static-storage"),]
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static-serve')
+STATIC_ROOT = os.path.join('static-serve')
